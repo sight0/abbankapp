@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="CustomerForm">
+  <grid id="27dc6" binding="panel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="1176" y="215" width="1862" height="598"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="a10a4" class="javax.swing.JLabel" binding="welcome">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="40" left="0" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <foreground color="-2829100"/>
+          <text value="Welcome ,"/>
+        </properties>
+      </component>
+      <component id="512c3" class="javax.swing.JButton" binding="requestAccount">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="0" bottom="10" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-10525075"/>
+          <foreground color="-1"/>
+          <text value="Request Account"/>
+        </properties>
+      </component>
+      <component id="e429b" class="javax.swing.JButton" binding="requestLoan">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="15" left="0" bottom="10" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-10525075"/>
+          <foreground color="-1"/>
+          <text value="Request Loan"/>
+        </properties>
+      </component>
+      <component id="6477a" class="javax.swing.JButton" binding="eStatement">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="15" left="0" bottom="10" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-10525075"/>
+          <foreground color="-1"/>
+          <text value="My eStatement"/>
+        </properties>
+      </component>
+      <component id="f8695" class="javax.swing.JButton" binding="transferButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="15" left="0" bottom="10" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-10525075"/>
+          <foreground color="-1"/>
+          <text value="Transfer"/>
+        </properties>
+      </component>
+      <component id="9f3df" class="javax.swing.JButton" binding="debts">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="15" left="0" bottom="10" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-10525075"/>
+          <foreground color="-1"/>
+          <text value="Pay Debts"/>
+        </properties>
+      </component>
+      <component id="e82db" class="javax.swing.JButton" binding="payUtilitiesButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="15" left="0" bottom="10" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-10525075"/>
+          <foreground color="-1"/>
+          <text value="Pay Utilities"/>
+        </properties>
+      </component>
+      <component id="d550f" class="javax.swing.JButton" binding="editProfileButton" default-binding="true">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="15" left="0" bottom="30" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-10525075"/>
+          <foreground color="-1"/>
+          <text value="Edit Profile"/>
+        </properties>
+      </component>
+      <component id="9d706" class="javax.swing.JButton" binding="logoutButton" default-binding="true">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="5" left="0" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-2209206"/>
+          <foreground color="-1"/>
+          <text value="Logout"/>
+        </properties>
+      </component>
+      <component id="a5de5" class="javax.swing.JButton" binding="notificationsButton">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="15" left="0" bottom="30" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-16440538"/>
+          <foreground color="-394241"/>
+          <text value="`0` Notifications"/>
+        </properties>
+      </component>
+      <grid id="10264" binding="accountsPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+        <constraints>
+          <grid row="1" column="2" row-span="11" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="15" left="0" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-5131595"/>
+          <maximumSize width="600" height="400"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <component id="35358" class="javax.swing.JLabel" binding="lastLogin">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="30" left="100" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Reliable and trustworthy. Your money is safe with us."/>
+        </properties>
+      </component>
+      <component id="d8294" class="javax.swing.JLabel" binding="todayDate">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="20" left="30" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Sunday, 11th November 2022"/>
+        </properties>
+      </component>
+      <component id="1fb2a" class="javax.swing.JButton" binding="left">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="80" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-10525075"/>
+          <foreground color="-1"/>
+          <text value="&lt;"/>
+        </properties>
+      </component>
+      <component id="fd83e" class="javax.swing.JButton" binding="right">
+        <constraints>
+          <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="0" right="60" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-10525075"/>
+          <foreground color="-1"/>
+          <text value="&gt;"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
