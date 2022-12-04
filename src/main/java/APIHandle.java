@@ -37,8 +37,8 @@ public class APIHandle {
     private List<Map<String,String>> notifications = new ArrayList<>();
     private List<Map<String,String>> allnotifications = new ArrayList<>();
 
-//    private final String apiURI = "http://139.162.185.53:8080/";
-    private final String apiURI = "http://127.0.0.1:8080/";
+    private final String apiURI = "http://139.162.185.53:8080/";
+//    private final String apiURI = "http://127.0.0.1:8080/";
 
     public static APIHandle getInstance(){
         if(apiHandle == null)
